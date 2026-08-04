@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+body {
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+li {
+    margin-left: 150px;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+a {
+    color: #0366D6;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a#link {
+    color: #0366D6;
+    padding-right: 50px;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+a#link:hover {
+    text-decoration: underline;
+}
+
+hr {
+    color: rgba(59, 223, 0, 0.598);
+    width: 965px;
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.079);
+    margin-top: -20px;
+    margin-bottom: 0px;
+
+}
+
+
+h1#title {
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 2em;
+    margin-left: 150px;
+    color: rgba(33, 33, 33, 0.962);
+}
+
+p {
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 1em;
+    color:rgba(0, 0, 0, 0.773)
+}
+
+h2 {
+    font-weight: 600;
+    line-height: 1.25;
+    margin-left: 150px;
+    color: rgba(33, 33, 33, 0.962);
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+p#footer {
+    text-align: center;
+    font-size: 0.9em;
+}
