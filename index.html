@@ -13,10 +13,10 @@
     <nav>
         <div><img src="images/logo.png" alt="Imagem logo"></div>
         <ul>
-            <li><i class="fa-solid fa-circle-user icon" style="color: rgba(200, 200, 200, 0.778)"></i> <a href="#">Apresentação</a></li>
-            <li><i class="fa-solid fa-code" style="color: rgba(200, 200, 200, 0.778)"></i> <a href="#">Stack</a></li>
-            <li><i class="fa-solid fa-diagram-project" style="color: rgba(200, 200, 200, 0.778)"></i><a href="#">Projetos</a></li>
-            <li><i class="fa-solid fa-heart-circle-bolt" style="color: rgba(200, 200, 200, 0.778);"></i><a href="#">Contato</a></li>
+            <li><i class="fa-solid fa-circle-user icon" style="color: rgba(200, 200, 200, 0.778)"></i> <a href="#apresentacao">Apresentação</a></li>
+            <li><i class="fa-solid fa-code" style="color: rgba(200, 200, 200, 0.778)"></i> <a href="#meus-stacks">Stack</a></li>
+            <li><i class="fa-solid fa-diagram-project" style="color: rgba(200, 200, 200, 0.778)"></i><a href="#meus-projetos">Projetos</a></li>
+            <li><i class="fa-solid fa-heart-circle-bolt" style="color: rgba(200, 200, 200, 0.778);"></i><a href="#contato">Contato</a></li>
         </ul>
         <div id="menu" onclick="menu()">
             <i class="fa-solid fa-bars" style="color: white; font-size: 20px;"></i>
@@ -83,7 +83,7 @@
         <section id="meus-projetos">
             <h2>
                 <i class="fa-solid fa-diagram-project" style="color: rgb(255, 255, 255)"></i>
-                Meus Projetos
+                Projetos
             </h2>
         
             <p class="ptitle">Confira os meus projetos públicos, que estão sendo desenvolvidos ou já foram desenvolvidos.</p>
@@ -116,9 +116,30 @@
                 </div>
             </div>
         </section>
+        <section id="contato">
+            <h2><i class="fa-solid fa-heart-circle-bolt" style="color: rgb(255, 255, 255);"></i>Contato</h2>
+            <p class="ptitle">Fale comigo! Meus contatos asseguir:</p>
+            <div id="formas-contato">
+                <div class="forma">
+                    <div class="txt">
+                        <h3><i class="fa-brands fa-chrome" style="color: rgb(239, 36, 36);"></i> Gmail</h3>
+                        <p>Envie uma mensagem ao email <span class="mail">davi.devbuilder@gmail.com</span> o seu assunto!</p>
+                    </div>
+                    <a href="https://google.gmail/davidevbuilder/" class="mail-button">Enviar Email</a>
+                </div>
+                <div class="forma">
+                    <div class="txt">
+                        <h3><i class="fa-brands fa-square-github" style="color: rgb(48, 210, 16);"></i>Github</h3>
+                        <p>Envie uma mensagem particular para a minha conta do github <span class="mail">@davidevbuilder</span></p>
+                    </div>
+                    <a href="https://github.com/davidevbuilder" class="mail-button">Falar no Github</a>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        Feito com ❤️ por <span class="mail">@davidevbuilder</span> <br>
+        Esse site é OpenSource, acesso-o Agora no meu github.
     </footer>
     <script src="script.js"></script>
 </body>

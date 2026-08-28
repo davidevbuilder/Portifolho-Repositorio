@@ -159,11 +159,13 @@ div.item a:hover {
 }
 
 section#meus-stacks {
+    border-top: 1px solid rgb(19, 19, 19);
     width: 100%;
     color: white;
 }
 
 section#meus-stacks h2 {
+
     white-space: nowrap;
     margin-left: 50px;
     font-family: var(--font-title);
@@ -311,6 +313,78 @@ div.banner img {
     width: 50%;
 }
 
+section#contato {
+    border-top: 1px solid rgb(19, 19, 19);
+    color: white;
+}
+
+section#contato h2 {
+    margin-top: 20px;
+    color: white;
+    font-family: var(--font-title);
+    font-size: 3.6em;
+    margin-left: 50px;
+}
+
+section#contato p.ptitle {
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-family: var(--font-title);
+}
+
+div#formas-contato {
+    margin-left: 50px;
+    gap: 15px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+div.forma {
+    display: flex;
+    background-color: rgba(15, 15, 15, 0.653);
+    border: 1px solid rgb(18, 18, 18);
+    width: 47%;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+}
+
+div.forma h3 {
+    font-size: 3em;
+    border-bottom: 1px solid rgba(46, 46, 46, 0.843);
+    margin-bottom: 20px;
+}
+
+span.mail {
+    color: rgb(21, 84, 221);
+    text-decoration: underline;
+}
+
+div.txt {
+    margin-bottom: 10px;
+}
+
+.mail-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(0, 72, 255);
+    text-align: center;
+    font-weight: 1000;
+    border-radius: 20px;
+    font-family: var(--font-title);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-top: 1px solid rgb(19, 19, 19);
+    font-family: var(--font-title);
+}
+
 @media screen and (max-width: 859px) {
     div#menu {
         display: flex;
@@ -353,12 +427,24 @@ div.banner img {
     }
 
     div.projeto {
-        flex-direction: row;
+        flex-direction: column;
         width: 95%;
     }
 
     div.buttons {
-        display: none;
+        display: block;
+    }
+
+    a.more-infos {
+        padding: 10px;
+        width: 100px;
+        font-size: 1em;
+    }
+
+    a.project-github {
+        padding: 10px;
+        width: 100px;
+        font-size: 1em;
     }
     
 
@@ -378,6 +464,16 @@ div.banner img {
 
     section#meus-projetos h2 {
         margin-left: 25px;
+    }
+
+    div#formas-contato {
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    div.forma {
+        width: 95%;
+        margin-bottom: 5px;
     }
     
 }
