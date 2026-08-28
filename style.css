@@ -219,7 +219,6 @@ section#meus-projetos h2 {
     font-family: var(--font-title);
     font-weight: 1000;
     font-size: 3.6em;
-    white-space: nowrap;
 }
 
 p.ptitle {
