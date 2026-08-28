@@ -95,6 +95,8 @@ section#apresentacao h1 {
     font-weight: 1000;
     font-size: 6.5em;
     text-align: center;
+    line-height: .8em;
+    margin-bottom: 20px;
 }
 
 section#apresentacao p {
@@ -162,6 +164,7 @@ section#meus-stacks {
 }
 
 section#meus-stacks h2 {
+    white-space: nowrap;
     margin-left: 50px;
     font-family: var(--font-title);
     font-weight: 1000;
@@ -216,6 +219,7 @@ section#meus-projetos h2 {
     font-family: var(--font-title);
     font-weight: 1000;
     font-size: 3.6em;
+    white-space: nowrap;
 }
 
 p.ptitle {
