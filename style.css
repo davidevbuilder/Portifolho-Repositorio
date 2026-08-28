@@ -207,7 +207,7 @@ div.stack h3{
     }
 
     section#apresentacao h1 {
-        font-size: 4.4em;
+        font-size: 4.2em;
         margin-top: 50px;
     }
 
@@ -229,6 +229,10 @@ div.stack h3{
 
     div#stacks {
         margin-left: 25px;
+    }
+
+    section#meus-stacks h2 {
+        font-size: 3.2em;
     }
     
 }
