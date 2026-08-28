@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "portifolho",
+			"path": "."
+		},
+		{
+			"name": "imagens",
+			"path": "../../Desktop/portifolho/imagens"
+		}
+	],
+	"settings": {}
+}
